@@ -24,7 +24,7 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 We welcome any feedback from our users to improve our services. Please complete the following Google Form to let us know how we can improve:
 
 ```bash
-https://www.google.ca/forms/about/
+https://forms.gle/c4bwm6bfvsQv472e7
 ```
 
 ## Contributing
