@@ -1,1 +1,1 @@
-# splitz-public
+# How to use Splitz:
