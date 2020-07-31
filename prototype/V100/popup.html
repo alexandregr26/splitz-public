@@ -1,0 +1,84 @@
+<!-- Declaration of HTML5 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main Title (Tab) -->
+    <title>Splitz</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Link for all icons: https://www.w3schools.com/icons/fontawesome_icons_webapp.asp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Adding Local Font -->
+    <style>
+        @font-face {
+            font-family: 'Germania';
+            src: url(fonts/Germania.otf);
+            font-style: normal;
+            font-weight: 100;
+        }
+
+        @font-face {
+            font-family: 'Eurofurence';
+            src: url(fonts/eurof55.ttf);
+            font-style: normal;
+            font-weight: 200;
+        }
+
+        @font-face {
+            font-family: 'EurofurenceBold';
+            src: url(fonts/eurof75.ttf);
+            font-style: normal;
+            font-weight: 50;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Container for all body elements -->
+    <div class="container">
+        <div id="myDiv" class="modal-header">
+            <!-- Main Header (Splitz) -->
+            <button id="logo">Splitz</button>
+        </div>
+
+        <!-- Input -->
+        <div class="modal-category">
+            <form id="myForm" class="myform" method="GET" autocomplete="off">
+                <input id="sectionText" type="text" name="section" placeholder="Add a Split...">
+                <input id="sectionSubmit" type="submit" value="S">
+            </form>
+            <div id="results"></div>
+        </div>
+
+        <div class="tabs-category">
+            <!-- Chrome.tabs API goes here -->
+            <div class="h1V" id="whiteHTML">
+                <ul id="NA2">
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div id="myFooter" class="flex-container">
+                <div class="flex1">
+                    <button id="refreshButton" title="Clear All Splitz" <i class="fa fa-refresh"></i></button>
+                </div>
+                <div class="flex">
+                    <button id="plusTabButton" title="Open a New Tab" <i class="fa fa-plus"></i></button>
+                </div>
+                <div class="flex2">
+                    <button id="questionButton" title="Help" <i class="fa fa-question"></i></button>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
+<!-- Javascript File -->
+<script type="text/javascript" src="javascript/main.js"></script>
