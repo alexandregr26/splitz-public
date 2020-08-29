@@ -11,6 +11,8 @@ Use the following URL to install Splitz from the official Chrome Store:
 
 ## How to Use It
 
+![](prototype/V100/images/githubReadMePic.png)
+
 ```bash
 1. Click on the Logo 'Splitz' to alternate between two different color schemes (Light and Dark)
 2. Hover the mouse over the 'S' symbol to open the text box and enter the name of the Splitz you want to add
