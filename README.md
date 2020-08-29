@@ -7,7 +7,7 @@ Splitz is an exclusive Chrome Extension to help users manage their tabs efficien
 Use the following URL to install Splitz from the official Chrome Store:
 
 
-[https://chrome.google.com/webstore/category/extensions](https://chrome.google.com/webstore/category/extensions)
+[https://chrome.google.com/webstore/detail/splitz/kbepjlbbljaidojicmmjafnolfipokmf](https://chrome.google.com/webstore/detail/splitz/kbepjlbbljaidojicmmjafnolfipokmf)
 
 ## How to Use It
 
